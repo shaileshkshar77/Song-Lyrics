@@ -8,5 +8,8 @@ class Songs(models.Model):
     singer=models.CharField( max_length=50)
     #add thumbnail
 
-def __str__(self):
-    return self.title
+    def __str__(self):
+        return self.title
+
+    def snip(self):
+        return self.body[:20]+'...'

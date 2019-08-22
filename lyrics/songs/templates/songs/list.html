@@ -4,6 +4,12 @@
     </head>
     <body>
         <h1> List </h1>
-         Welcome
+         <div class ="articles">
+         {% for article in articles %}
+         <div class="article">
+         <h2><a href ="*">{{article.title}}</a></h>
+         <p>{{article.snip}}</p>
+         <p>{{article.singer}}</p>
+         {% endfor %}
     </body>
 </html>
