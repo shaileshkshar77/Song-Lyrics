@@ -1,1 +1,1 @@
-web: gunicorn lyrics.wsg
+web: gunicorn lyrics.wsgi
