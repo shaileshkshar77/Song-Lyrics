@@ -1,1 +1,1 @@
-web: gunicorn lyrics/wsgi.py
+web: gunicorn wsgi.py
