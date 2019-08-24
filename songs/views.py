@@ -7,6 +7,8 @@ def list(request):
     return render(request ,"songs/list.html",{"articles":articles})
 
 def article(request,slug):
-    return HttpResponse(slug)
+    #return HttpResponse(slug)
+    song=Songs.objects.get(slug=slug)
+    return render(request ,"songs/lyric.html",{"song":song})
 
 # Create your views here.
