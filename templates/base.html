@@ -1,0 +1,15 @@
+{% load static from staticfiles %} 
+
+<html>
+    <head>
+        <title>Articles</title>
+        <link rel="stylesheet" href="{% static 'styles.css' %}">
+    </head>
+    <body>
+    <div class ="wrapper">
+    {% block content%}
+
+    {% endblock %}
+
+    </body>
+</html>

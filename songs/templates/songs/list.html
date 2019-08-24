@@ -1,8 +1,7 @@
-<html>
-    <head>
-        <title>Articles</title>
-    </head>
-    <body>
+{% extends 'base.html' %}
+
+    {% block content %}
+    
         <h1> List </h1>
          <div class ="articles">
          {% for article in articles %}
@@ -11,5 +10,4 @@
          <p>{{article.snip}}</p>
          <p>{{article.singer}}</p>
          {% endfor %}
-    </body>
-</html>
+         {% endblock content %}
