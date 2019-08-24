@@ -6,6 +6,7 @@ class Songs(models.Model):
     slug=models.SlugField()
     body=models.TextField()
     singer=models.CharField( max_length=50)
+    thumb=models.ImageField(default='default.jpg',blank=True)
     #add thumbnail
 
     def __str__(self):
