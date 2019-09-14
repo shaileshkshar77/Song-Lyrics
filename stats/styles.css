@@ -2,7 +2,7 @@ body{
     background-color: #0f121f;
     background-image: url(sike.jpg);
     background-repeat: no-repeat; 
-    color: #fff;
+    color: #0f121f;
 }
 
 body *{
@@ -14,5 +14,17 @@ h1,h2,h3,h4,h5{
     margin: 0;
 }
 a,a:hover,a:visited{
-    color: crimson;
+    color: #fff;
+    text-decoration: none;
+}
+
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+div.wrapper h1{
+    text-align: center;
+    margin: 100 px auto;
+    font-size: 2.4en;
 }

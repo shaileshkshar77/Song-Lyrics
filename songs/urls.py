@@ -6,6 +6,7 @@ app_name='song'
 
 urlpatterns = [
     
-    path('',views.list),
+    path('',views.list,name="good"),
+    path('create/',views.create_song,name="create"),
     re_path('(?P<slug>[\w-]+)/$',views.article,name="detail"),
 ]
