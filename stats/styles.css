@@ -1,8 +1,9 @@
 body{
     background-color: #0f121f;
     background-image: url(sike.jpg);
+    background-size: 100%;
     background-repeat: no-repeat; 
-    color: #0f121f;
+    color: #fff;
 }
 
 body *{
