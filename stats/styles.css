@@ -65,3 +65,28 @@ nav button{
 .article h2{
     font-size: 1.2em;
 }
+
+.article .author{
+    padding: 0;
+    background: #00dba0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    color: #0f121f;
+}
+
+.Lyrics .song{
+    padding: 0;
+}
+.Lyrics .song img{
+    max-width: 100%;
+}
+.Lyrics .song h2{
+    text-align: center;
+    margin: 20px auto;
+    font-size: 2en;
+}
+.Lyrics .song p{
+    text-align: center;
+}
