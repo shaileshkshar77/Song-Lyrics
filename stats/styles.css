@@ -79,9 +79,6 @@ nav button{
 .Lyrics .song{
     padding: 0;
 }
-.Lyrics .song img{
-    max-width: 100%;
-}
 .Lyrics .song h2{
     text-align: center;
     margin: 20px auto;
